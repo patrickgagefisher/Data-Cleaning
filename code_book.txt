@@ -1,0 +1,47 @@
+CODE BOOK
+
+This code book lists variables used in the run_analysis script.
+
+table.subject.train
+The subject_train.txt file, which has its row names set to reflect Subject.
+
+table.y.train
+The y_train.txt file which has its row names set to reflect Exercise.
+
+table.x.train
+The x_train.txt file which holds variable results.
+
+table.subject.test
+The subject_test.txt file
+
+table.y.test
+The y_test.txt file which has its row names set to reflect Exercise.
+
+table.x.test
+The x_test.txt file which holds variable results.
+
+table.features
+The features.txt file which holds the variable names
+
+column.features
+A list of columns to be used in the subsetted data frame.
+
+subject.bind
+A data frame made up of a combination of the subject.x.train and subject.x.test data frames.
+
+activity.bind
+A data frame made up of a combination of the activity.x.train and activity.x.test data frames.
+
+subject.mean
+A new data frame with the column means for each subject
+
+activity.mean
+A new data frame with the column means for each activity
+
+final.set
+A data frame made up of a combination of the subject.mean and activity.mean data frames.
+
+
+
+
+
